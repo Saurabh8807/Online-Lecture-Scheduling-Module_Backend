@@ -48,6 +48,7 @@ module.exports.allInstructors = async (req, res, next) => {
       "email",
       "username",
       "_id",
+      "isAdmin"
     ]);
     return res.json(users);
   } catch (ex) {
